@@ -5,6 +5,9 @@
   "type": "module",
   "description": "DONGNE API — Korea Discovery & Intelligence Platform",
   "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",

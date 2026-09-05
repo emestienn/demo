@@ -3,7 +3,7 @@ import { env } from "./env.js";
 
 export async function connectDatabase() {
   mongoose.set("strictQuery", true);
-  await mongoose.connect(env.MONGODB_URI);
+  await mongoose.connect(env.MONGO_URI);
   console.log(`[db] connected -> ${mongoose.connection.name}`);
 
   mongoose.connection.on("error", (err) => {

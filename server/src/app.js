@@ -34,7 +34,15 @@ export function createApp() {
   app.disable("x-powered-by");
   app.set("trust proxy", 1);
 
-  app.use(cors({ origin: env.CLIENT_ORIGIN, credentials: true }));
+  app.use(
+    cors({
+      origin(origin, callback) {
+        if (!origin || env.CLIENT_ORIGINS.includes(origin)) return callback(null, true);
+        callback(new Error(`Origin ${origin} is not allowed by CORS`));
+      },
+      credentials: true,
+    }),
+  );
   app.use(express.json({ limit: "2mb" }));
   app.use(express.urlencoded({ extended: true }));
   if (env.NODE_ENV !== "test") app.use(morgan("dev"));

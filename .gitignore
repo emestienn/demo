@@ -5,3 +5,5 @@ dist/
 .env.local
 *.log
 .DS_Store
+server/uploads/*
+!server/uploads/.gitkeep
