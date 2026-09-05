@@ -1,0 +1,15 @@
+{
+  "eyebrow": "커뮤니티",
+  "heading": "모두가 발견한 것들",
+  "composePlaceholder": "발견한 것을 공유해보세요...",
+  "postedToast": "커뮤니티에 게시되었습니다",
+  "tabs": {
+    "all": "전체",
+    "following": "팔로잉"
+  },
+  "empty": {
+    "title": "아직 게시물이 없습니다",
+    "description": "가장 먼저 발견한 것을 공유해보세요."
+  },
+  "commentPlaceholder": "댓글 작성..."
+}

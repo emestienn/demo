@@ -1,0 +1,58 @@
+{
+  "languages": {
+    "ko": {
+      "label": "한국어",
+      "eyebrow": "한국어 배우기",
+      "title": "한국어, 상황별로 하나씩"
+    },
+    "ru": {
+      "label": "러시아어",
+      "eyebrow": "러시아어 배우기",
+      "title": "러시아어, 상황별로 하나씩"
+    },
+    "uz": {
+      "label": "우즈베크어",
+      "eyebrow": "우즈베크어 배우기",
+      "title": "우즈베크어, 상황별로 하나씩"
+    }
+  },
+  "categories": {
+    "alphabet": "알파벳",
+    "greetings": "인사",
+    "food": "음식",
+    "directions": "길찾기",
+    "shopping": "쇼핑",
+    "slang": "속어",
+    "travel": "여행"
+  },
+  "home": {
+    "lessonsCompleted": "완료한 레슨",
+    "dayStreak": "연속 일수",
+    "level": "레벨",
+    "levelValue": "Lv. {{level}}",
+    "xpValue": "{{xp}} XP",
+    "curriculumEyebrow": "커리큘럼",
+    "lessonsTitle": "레슨",
+    "milestonesEyebrow": "마일스톤",
+    "achievementsTitle": "업적",
+    "wordsCount": "단어 {{count}}개 · 레벨 {{level}}",
+    "xpReward": "+{{xp}} XP"
+  },
+  "lesson": {
+    "allLessons": "모든 레슨",
+    "flashcard": "플래시카드 {{current}} / {{total}}",
+    "tapToFlip": "탭하여 뒤집기",
+    "flip": "뒤집기",
+    "next": "다음",
+    "question": "질문 {{current}} / {{total}}",
+    "noQuiz": "이 레슨에는 아직 퀴즈가 없어요 — 단어 복습만으로도 훌륭해요!",
+    "backToLessons": "레슨 목록으로",
+    "scorePercent": "{{score}}%",
+    "correctOfTotal": "{{total}}개 중 {{correct}}개 정답",
+    "lessonPassed": "레슨 통과!",
+    "lessonPassedWithXp": "레슨 통과 — +{{xp}} XP!",
+    "notPassed": "70% 이상 맞아야 통과해요. 다시 도전해 보세요!",
+    "achievement": "업적: {{title}}",
+    "retryQuiz": "퀴즈 다시 풀기"
+  }
+}

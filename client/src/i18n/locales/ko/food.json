@@ -1,0 +1,39 @@
+{
+  "list": {
+    "eyebrow": "테이스트 코리아",
+    "title": "한국 음식, 낱낱이 파헤치다"
+  },
+  "categories": {
+    "bbq": "고기구이",
+    "street-food": "길거리 음식",
+    "noodles": "면 요리",
+    "soups-stews": "국·찌개",
+    "desserts": "디저트",
+    "cafe-drinks": "카페 음료",
+    "traditional": "전통 음식",
+    "regional": "지역 음식",
+    "convenience-store": "편의점 음식"
+  },
+  "filters": {
+    "all": "전체",
+    "spiceAny": "매운맛 상관없음",
+    "spiceNone": "안 매운맛",
+    "spiceMild": "순한맛 (≤2)",
+    "spiceMedium": "중간맛 (≤4)"
+  },
+  "empty": {
+    "title": "일치하는 음식이 없습니다",
+    "description": "다른 카테고리나 매운맛 필터를 시도해 보세요."
+  },
+  "detail": {
+    "tryItHere": "여기서 맛보세요",
+    "recommendedPlaces": "추천 장소"
+  },
+  "info": {
+    "origin": "원산지",
+    "region": "지역",
+    "priceRange": "가격대",
+    "spiceLevel": "매운맛 정도",
+    "rating": "평점"
+  }
+}

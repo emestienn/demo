@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "eyebrow": "Koreyani kashf etish va tahlil qilish platformasi",
+    "titlePart1": "Har bir ",
+    "titleHighlight": "dong",
+    "titlePart2": "neda o'ziga xos hikoya bor.",
+    "subheadline": "DONGNE Koreyaning mahallalari, taomlari, K-madaniyati va jamiyatini bitta jonli platformada birlashtiradi — hali izlayotganingizni bilmagan mahallangizni topish uchun yaratilgan.",
+    "ctaExplore": "Kashf etishni boshlash",
+    "ctaMap": "Xaritani ochish"
+  },
+  "features": {
+    "neighborhoodIntel": {
+      "title": "Jonli mahalla ma'lumotlari",
+      "desc": "Koreyaning har bir tumani uchun kayfiyat teglari, narx darajalari va real vaqtdagi jamoa tanlovlari."
+    },
+    "personalizedDiscovery": {
+      "title": "Shaxsiylashtirilgan kashfiyot",
+      "desc": "Siz saqlagan, baholagan va ko'rib chiqqan narsalardan o'rganadigan tavsiya tizimi."
+    },
+    "aiAssistant": {
+      "title": "sun'iy intellektli Koreya yordamchisi",
+      "desc": "Kuningizni tasvirlab bering — DONGNE-ning o'z bazasi asosida tuzilgan haqiqiy marshrutni oling."
+    },
+    "koreanOnGo": {
+      "title": "Yo'l-yo'lakay koreys tili",
+      "desc": "Siz duch keladigan aniq vaziyatlarga moslashtirilgan qisqa darslar."
+    }
+  },
+  "cities": {
+    "heading": "Yetti shahar, bitta platforma",
+    "placesCount": "{{count}} ta joy"
+  }
+}

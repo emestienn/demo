@@ -1,0 +1,80 @@
+{
+  "cover": {
+    "change": "Сменить обложку"
+  },
+  "stats": {
+    "followers": "Подписчики",
+    "following": "Подписки",
+    "dayStreak": "{{count}} дней подряд"
+  },
+  "tabs": {
+    "posts": "Посты",
+    "collections": "Коллекции"
+  },
+  "posts": {
+    "composerPlaceholder": "Поделитесь открытием...",
+    "emptyTitle": "Пока нет постов"
+  },
+  "collectionsTab": {
+    "itemsCount": "{{count}} элементов",
+    "emptyTitle": "Нет публичных коллекций"
+  },
+  "toasts": {
+    "coverUpdated": "Обложка обновлена",
+    "posted": "Опубликовано",
+    "profileUpdated": "Профиль обновлён"
+  },
+  "editModal": {
+    "title": "Редактировать профиль",
+    "changePhoto": "Сменить фото",
+    "displayName": "Отображаемое имя",
+    "bio": "О себе",
+    "interests": "Интересы (через запятую)",
+    "interestsPlaceholder": "кафе, кпоп, ночная жизнь"
+  },
+  "collectionsPage": {
+    "eyebrow": "Ваш аккаунт",
+    "title": "Коллекции",
+    "newCollection": "Новая коллекция",
+    "namePlaceholder": "Название коллекции",
+    "descriptionPlaceholder": "Описание (необязательно)",
+    "makePublic": "Сделать эту коллекцию публичной",
+    "createdToast": "Коллекция создана",
+    "noDescription": "Без описания",
+    "itemsCount": "{{count}} элементов",
+    "emptyTitle": "Пока нет коллекций",
+    "emptyDescription": "Создайте свою первую коллекцию, чтобы систематизировать места, еду и события."
+  },
+  "collectionDetail": {
+    "eyebrow": "Коллекция · автор {{name}}",
+    "privateMessage": "Эта коллекция приватная.",
+    "emptyTitle": "Эта коллекция пуста",
+    "emptyDescription": "Добавляйте места, еду, события или посты с помощью кнопки сохранения на их страницах."
+  },
+  "itemTypes": {
+    "Place": "Место",
+    "Post": "Пост",
+    "Event": "Событие",
+    "Food": "Еда"
+  },
+  "addToCollection": {
+    "title": "Сохранить в коллекцию",
+    "addedToast": "Добавлено в коллекцию",
+    "addErrorToast": "Не удалось добавить в коллекцию",
+    "createErrorToast": "Не удалось создать коллекцию",
+    "createdAndAddedToast": "Коллекция «{{name}}» создана, элемент добавлен",
+    "namePlaceholder": "Название новой коллекции",
+    "noCollections": "Пока нет коллекций.",
+    "add": "Добавить"
+  },
+  "notifications": {
+    "title": "Уведомления",
+    "markAllRead": "Отметить все как прочитанные",
+    "emptyTitle": "Пока нет уведомлений",
+    "emptyDescription": "Здесь будут отображаться лайки, комментарии, подписки и достижения.",
+    "ariaLabel": "Уведомления",
+    "allCaughtUp": "Вы всё просмотрели.",
+    "viewAll": "Смотреть все",
+    "panelTitle": "Уведомления"
+  }
+}

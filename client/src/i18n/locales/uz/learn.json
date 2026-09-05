@@ -1,0 +1,58 @@
+{
+  "languages": {
+    "ko": {
+      "label": "Koreys tili",
+      "eyebrow": "Koreys tilini o'rganing",
+      "title": "Koreys tili — har safar bitta vaziyat"
+    },
+    "ru": {
+      "label": "Rus tili",
+      "eyebrow": "Rus tilini o'rganing",
+      "title": "Rus tili — har safar bitta vaziyat"
+    },
+    "uz": {
+      "label": "O'zbek tili",
+      "eyebrow": "O'zbek tilini o'rganing",
+      "title": "O'zbek tili — har safar bitta vaziyat"
+    }
+  },
+  "categories": {
+    "alphabet": "Alifbo",
+    "greetings": "Salomlashish",
+    "food": "Ovqat",
+    "directions": "Yo'nalishlar",
+    "shopping": "Xarid qilish",
+    "slang": "Jargon",
+    "travel": "Sayohat"
+  },
+  "home": {
+    "lessonsCompleted": "Tugallangan darslar",
+    "dayStreak": "Ketma-ket kunlar",
+    "level": "Daraja",
+    "levelValue": "Dr. {{level}}",
+    "xpValue": "{{xp}} XP",
+    "curriculumEyebrow": "O'quv dastur",
+    "lessonsTitle": "Darslar",
+    "milestonesEyebrow": "Yutuqlar",
+    "achievementsTitle": "Yutuqlar",
+    "wordsCount": "{{count}} ta so'z · {{level}}-daraja",
+    "xpReward": "+{{xp}} XP"
+  },
+  "lesson": {
+    "allLessons": "Barcha darslar",
+    "flashcard": "Kartochka {{current}} / {{total}}",
+    "tapToFlip": "Aylantirish uchun bosing",
+    "flip": "Aylantirish",
+    "next": "Keyingi",
+    "question": "Savol {{current}} / {{total}}",
+    "noQuiz": "Bu dars uchun hali test yo'q — lug'atni takrorlash ham ajoyib ish!",
+    "backToLessons": "Darslarga qaytish",
+    "scorePercent": "{{score}}%",
+    "correctOfTotal": "{{total}} tadan {{correct}} tasi to'g'ri",
+    "lessonPassed": "Dars muvaffaqiyatli o'tildi!",
+    "lessonPassedWithXp": "Dars muvaffaqiyatli o'tildi — +{{xp}} XP!",
+    "notPassed": "O'tish uchun 70%+ kerak. Qayta urinib ko'ring!",
+    "achievement": "Yutuq: {{title}}",
+    "retryQuiz": "Testni qayta topshirish"
+  }
+}

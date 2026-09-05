@@ -1,0 +1,58 @@
+{
+  "languages": {
+    "ko": {
+      "label": "Корейский",
+      "eyebrow": "Учите корейский",
+      "title": "Корейский — по одной ситуации за раз"
+    },
+    "ru": {
+      "label": "Русский",
+      "eyebrow": "Учите русский",
+      "title": "Русский — по одной ситуации за раз"
+    },
+    "uz": {
+      "label": "Узбекский",
+      "eyebrow": "Учите узбекский",
+      "title": "Узбекский — по одной ситуации за раз"
+    }
+  },
+  "categories": {
+    "alphabet": "Алфавит",
+    "greetings": "Приветствия",
+    "food": "Еда",
+    "directions": "Направления",
+    "shopping": "Покупки",
+    "slang": "Сленг",
+    "travel": "Путешествия"
+  },
+  "home": {
+    "lessonsCompleted": "Уроков пройдено",
+    "dayStreak": "Дней подряд",
+    "level": "Уровень",
+    "levelValue": "Ур. {{level}}",
+    "xpValue": "{{xp}} XP",
+    "curriculumEyebrow": "Программа",
+    "lessonsTitle": "Уроки",
+    "milestonesEyebrow": "Достижения",
+    "achievementsTitle": "Награды",
+    "wordsCount": "{{count}} слов · Уровень {{level}}",
+    "xpReward": "+{{xp}} XP"
+  },
+  "lesson": {
+    "allLessons": "Все уроки",
+    "flashcard": "Карточка {{current}} из {{total}}",
+    "tapToFlip": "Нажмите, чтобы перевернуть",
+    "flip": "Перевернуть",
+    "next": "Далее",
+    "question": "Вопрос {{current}} из {{total}}",
+    "noQuiz": "Для этого урока пока нет теста — отличная работа над словарём!",
+    "backToLessons": "Назад к урокам",
+    "scorePercent": "{{score}}%",
+    "correctOfTotal": "{{correct}} из {{total}} правильно",
+    "lessonPassed": "Урок пройден!",
+    "lessonPassedWithXp": "Урок пройден — +{{xp}} XP!",
+    "notPassed": "Наберите 70%+, чтобы пройти. Попробуйте ещё раз!",
+    "achievement": "Достижение: {{title}}",
+    "retryQuiz": "Пройти тест заново"
+  }
+}

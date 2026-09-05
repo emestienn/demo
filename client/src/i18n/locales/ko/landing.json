@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "eyebrow": "한국 발견 및 인텔리전스 플랫폼",
+    "titlePart1": "모든 ",
+    "titleHighlight": "동",
+    "titlePart2": "네에는 저마다의 이야기가 있다.",
+    "subheadline": "DONGNE는 한국의 동네, 음식, K-컬처, 커뮤니티를 하나의 살아있는 플랫폼에 담습니다 — 당신이 찾고 있는 줄도 몰랐던 그 골목을 발견할 수 있도록.",
+    "ctaExplore": "탐험 시작하기",
+    "ctaMap": "지도 열기"
+  },
+  "features": {
+    "neighborhoodIntel": {
+      "title": "실시간 동네 정보",
+      "desc": "한국 각 지역의 분위기 태그, 가격대, 실시간 커뮤니티 추천을 확인하세요."
+    },
+    "personalizedDiscovery": {
+      "title": "맞춤형 발견",
+      "desc": "저장하고 평가하고 탐색한 내용을 학습하는 추천 엔진입니다."
+    },
+    "aiAssistant": {
+      "title": "AI 코리아 어시스턴트",
+      "desc": "하루 일정을 설명하면 DONGNE의 자체 데이터베이스로 만든 실제 여행 코스를 받아보세요."
+    },
+    "koreanOnGo": {
+      "title": "일상 속 한국어",
+      "desc": "실제로 마주할 상황에 딱 맞춘 짧고 알찬 레슨."
+    }
+  },
+  "cities": {
+    "heading": "일곱 개 도시, 하나의 플랫폼",
+    "placesCount": "장소 {{count}}개"
+  }
+}

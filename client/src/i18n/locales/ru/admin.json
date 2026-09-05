@@ -1,0 +1,170 @@
+{
+  "layout": {
+    "backToDongne": "Назад в DONGNE",
+    "adminConsole": "Панель администратора",
+    "nav": {
+      "overview": "Обзор",
+      "users": "Пользователи",
+      "places": "Места",
+      "cities": "Города и районы",
+      "food": "Еда",
+      "culture": "Культура",
+      "events": "События",
+      "reports": "Жалобы"
+    }
+  },
+  "overview": {
+    "title": "Обзор платформы",
+    "stats": {
+      "users": "Пользователи",
+      "usersSub": "+{{count}} за 30 дней",
+      "places": "Места",
+      "posts": "Публикации",
+      "events": "События",
+      "reviews": "Отзывы",
+      "openReports": "Открытые жалобы",
+      "engagement": "Активность (7 дней)"
+    },
+    "activityChart": "Активность за 30 дней",
+    "categoryChart": "Места по категориям",
+    "mostViewedPlaces": "Самые просматриваемые места",
+    "viewsCount": "{{count}} просмотров",
+    "usersByRole": "Пользователи по ролям"
+  },
+  "users": {
+    "title": "Пользователи",
+    "searchPlaceholder": "Поиск по имени пользователя или email",
+    "columns": {
+      "user": "Пользователь",
+      "email": "Email",
+      "role": "Роль",
+      "status": "Статус"
+    },
+    "roles": {
+      "user": "Пользователь",
+      "moderator": "Модератор",
+      "admin": "Администратор"
+    },
+    "status": {
+      "active": "Активен",
+      "suspended": "Заблокирован"
+    },
+    "suspend": "Заблокировать",
+    "reinstate": "Восстановить",
+    "toast": {
+      "roleUpdated": "Роль обновлена",
+      "userSuspended": "Пользователь заблокирован",
+      "userReinstated": "Пользователь восстановлен"
+    }
+  },
+  "reports": {
+    "title": "Жалобы",
+    "reportedBy": "Жалоба на {{targetType}} от {{reporter}}",
+    "status": {
+      "open": "Открыта",
+      "reviewing": "На рассмотрении",
+      "resolved": "Решена",
+      "dismissed": "Отклонена"
+    },
+    "empty": {
+      "title": "Жалоб нет",
+      "description": "Здесь будут появляться жалобы на контент для модерации."
+    }
+  },
+  "resources": {
+    "places": { "title": "Места", "singular": "место" },
+    "food": { "title": "Еда", "singular": "блюдо" },
+    "culture": { "title": "Культура", "singular": "материал" },
+    "events": { "title": "События", "singular": "событие" },
+    "cities": { "title": "Города", "singular": "город" },
+    "neighborhoods": { "title": "Районы", "singular": "район" }
+  },
+  "fields": {
+    "places": {
+      "name": "Название",
+      "category": "Категория",
+      "neighborhood": "Район",
+      "rating": "Рейтинг",
+      "description": "Описание",
+      "address": "Адрес",
+      "priceLevel": "Уровень цен (1-4)",
+      "tags": "Теги (через запятую)",
+      "lat": "Широта",
+      "lng": "Долгота",
+      "image": "URL изображения"
+    },
+    "food": {
+      "name": "Название",
+      "category": "Категория",
+      "spice": "Острота",
+      "rating": "Рейтинг",
+      "nameEnglish": "Название на английском",
+      "nameKorean": "Название на корейском",
+      "description": "Описание",
+      "origin": "Происхождение",
+      "region": "Регион",
+      "priceRange": "Ценовой диапазон",
+      "spiceLevel": "Уровень остроты (0-5)",
+      "image": "URL изображения"
+    },
+    "culture": {
+      "title": "Название",
+      "type": "Тип",
+      "popularity": "Популярность",
+      "summary": "Краткое описание",
+      "body": "Текст",
+      "tags": "Теги (через запятую)",
+      "image": "URL изображения",
+      "featured": "Рекомендуемое"
+    },
+    "events": {
+      "title": "Название",
+      "type": "Тип",
+      "date": "Дата",
+      "city": "Город",
+      "venue": "Место проведения",
+      "description": "Описание",
+      "startDate": "Дата начала",
+      "priceRange": "Ценовой диапазон",
+      "image": "URL изображения"
+    },
+    "cities": {
+      "name": "Название",
+      "region": "Регион",
+      "placeCount": "Места",
+      "tagline": "Слоган",
+      "description": "Описание",
+      "bestSeason": "Лучший сезон",
+      "lat": "Широта центра",
+      "lng": "Долгота центра"
+    },
+    "neighborhoods": {
+      "name": "Название",
+      "city": "Город",
+      "rating": "Рейтинг",
+      "tagline": "Слоган",
+      "description": "Описание",
+      "atmosphere": "Атмосфера",
+      "vibeTags": "Теги атмосферы (через запятую)",
+      "lat": "Широта центра",
+      "lng": "Долгота центра"
+    }
+  },
+  "resourceManager": {
+    "new": "Добавить: {{resource}}",
+    "edit": "Изменить: {{resource}}",
+    "selectOption": "Выбрать...",
+    "empty": "Список пуст: «{{resource}}».",
+    "deleteConfirm": "Удалить «{{resource}}»? Это действие нельзя отменить.",
+    "updated": "«{{resource}}» обновлены",
+    "created": "«{{resource}}» созданы",
+    "deleted": "«{{resource}}» удалены",
+    "saveError": "Не удалось сохранить «{{resource}}»"
+  },
+  "cities": {
+    "tabs": {
+      "cities": "Города",
+      "neighborhoods": "Районы"
+    }
+  }
+}

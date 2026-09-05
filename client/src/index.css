@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+    background-color: #0a0a0c;
+  }
+  h1, h2, h3, h4, .font-display {
+    font-family: "Space Grotesk", system-ui, sans-serif;
+  }
+  ::selection {
+    background: #5ef2ff;
+    color: #0a0a0c;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2e2e35;
+    border-radius: 999px;
+  }
+  :focus-visible {
+    outline: 2px solid #5ef2ff;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1400px] px-5 sm:px-8 lg:px-12;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-[linear-gradient(90deg,#5ef2ff,#5b8cff,#b083ff)];
+  }
+  .card-surface {
+    @apply bg-ink-900 border border-ink-700/80 rounded-2xl;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-neon-cyan text-ink-950 font-semibold px-5 py-2.5 text-sm transition hover:shadow-glow hover:brightness-110 active:scale-[0.98];
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink-600 text-bone-50 font-medium px-5 py-2.5 text-sm transition hover:border-neon-cyan/60 hover:text-neon-cyan active:scale-[0.98];
+  }
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-ink-600 bg-ink-900/80 px-3 py-1 text-xs font-medium text-bone-200/80;
+  }
+  .input-field {
+    @apply w-full rounded-xl bg-ink-900 border border-ink-600 px-4 py-2.5 text-sm text-bone-50 placeholder:text-ink-500 focus:border-neon-cyan/60 outline-none transition;
+  }
+}
+
+.leaflet-container {
+  background: #111114 !important;
+  font-family: "Inter", system-ui, sans-serif;
+}
+.map-dark .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9) saturate(0.4);
+}
+.leaflet-popup-content-wrapper {
+  background: #18181c !important;
+  color: #f7f6f2 !important;
+  border-radius: 14px !important;
+  border: 1px solid #2e2e35;
+}
+.leaflet-popup-tip {
+  background: #18181c !important;
+}
+.leaflet-control-zoom a {
+  background: #18181c !important;
+  color: #f7f6f2 !important;
+  border-color: #2e2e35 !important;
+}

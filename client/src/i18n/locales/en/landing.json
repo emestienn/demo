@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "eyebrow": "Korea Discovery & Intelligence Platform",
+    "titlePart1": "Every ",
+    "titleHighlight": "dong",
+    "titlePart2": "ne has a story.",
+    "subheadline": "DONGNE maps Korea's neighborhoods, food, K-culture, and community into one living platform — built to find the block you didn't know you were looking for.",
+    "ctaExplore": "Start exploring",
+    "ctaMap": "Open the map"
+  },
+  "features": {
+    "neighborhoodIntel": {
+      "title": "Live neighborhood intel",
+      "desc": "Vibe tags, price levels, and real-time community picks for every district in Korea."
+    },
+    "personalizedDiscovery": {
+      "title": "Personalized discovery",
+      "desc": "A recommendation engine that learns from what you save, rate, and explore."
+    },
+    "aiAssistant": {
+      "title": "AI Korea Assistant",
+      "desc": "Describe your day — get a real itinerary built from DONGNE's own database."
+    },
+    "koreanOnGo": {
+      "title": "Korean, as you go",
+      "desc": "Bite-sized lessons tied to the exact situations you'll actually be in."
+    }
+  },
+  "cities": {
+    "heading": "Seven cities, one platform",
+    "placesCount": "{{count}} places"
+  }
+}

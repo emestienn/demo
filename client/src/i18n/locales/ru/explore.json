@@ -1,0 +1,90 @@
+{
+  "citiesList": {
+    "eyebrow": "Исследовать",
+    "title": "Семь городов, одна страна",
+    "placesCount": "{{count}} мест",
+    "neighborhoodsCount": "{{count}} районов"
+  },
+  "cityDetail": {
+    "stats": {
+      "neighborhoods": "Районы",
+      "places": "Места",
+      "avgRating": "Средний рейтинг",
+      "bestSeason": "Лучший сезон"
+    },
+    "whereToGoEyebrow": "Куда пойти",
+    "neighborhoodsTitle": "Районы",
+    "topRatedEyebrow": "Топ рейтинга",
+    "placesTitle": "Места, которые стоит посетить",
+    "happeningSoonEyebrow": "Скоро состоится",
+    "eventsTitle": "Ближайшие события"
+  },
+  "neighborhoodDetail": {
+    "info": {
+      "atmosphere": "Атмосфера",
+      "avgPrice": "Средняя цена",
+      "bestTime": "Лучшее время",
+      "rating": "Рейтинг"
+    },
+    "whatToDoEyebrow": "Чем заняться",
+    "popularActivitiesTitle": "Популярные занятия",
+    "spotsEyebrow": "{{count}} мест",
+    "placesTitle": "Места здесь",
+    "comingUpEyebrow": "Скоро",
+    "eventsTitle": "События в этом районе",
+    "localVoicesEyebrow": "Голоса местных",
+    "communityTitle": "От сообщества"
+  },
+  "mapExplorer": {
+    "allCities": "Все города",
+    "allCategories": "Все категории",
+    "details": "Подробнее",
+    "viewDetailsArrow": "Подробнее →",
+    "noResults": "Нет мест, подходящих под эти фильтры.",
+    "savedToast": "Сохранено в вашем аккаунте"
+  },
+  "placeDetail": {
+    "dramaLocation": "Локация из дорамы",
+    "reviewsCount": "{{count}} отзывов",
+    "reviewsEyebrow": "Отзывы",
+    "reviewsTitle": "{{count}} отзывов сообщества",
+    "reviewPlaceholder": "Поделитесь своим впечатлением...",
+    "postReview": "Опубликовать отзыв",
+    "reviewPosted": "Отзыв опубликован",
+    "reviewError": "Не удалось опубликовать отзыв",
+    "noReviewsTitle": "Пока нет отзывов",
+    "noReviewsDescription": "Станьте первым, кто поделится впечатлением об этом месте.",
+    "eatNearbyEyebrow": "Поесть рядом",
+    "foodTitle": "Что попробовать здесь",
+    "happeningHereEyebrow": "Происходит здесь",
+    "eventsTitle": "Связанные события",
+    "saved": "Сохранено",
+    "collect": "В коллекцию",
+    "removedFromSaved": "Удалено из сохранённого",
+    "savedToAccount": "Сохранено в вашем аккаунте",
+    "nearbyIn": "Рядом в районе {{name}}",
+    "reportPrompt": "Что не так с этим местом?",
+    "reportSubmitted": "Жалоба отправлена — спасибо",
+    "reportThisPlace": "Пожаловаться на это место"
+  },
+  "savedPlaces": {
+    "eyebrow": "Ваш аккаунт",
+    "title": "Сохранённые места",
+    "emptyTitle": "Пока нет сохранённых мест",
+    "emptyDescription": "Изучайте карту или ленту находок и сохраняйте места, которые хотите посетить."
+  },
+  "categories": {
+    "cafe": "Кафе",
+    "restaurant": "Ресторан",
+    "bar": "Бар",
+    "nightlife": "Ночная жизнь",
+    "shopping": "Шоппинг",
+    "culture": "Культура",
+    "landmark": "Достопримечательность",
+    "nature": "Природа",
+    "kpop": "K-pop",
+    "art": "Искусство",
+    "market": "Рынок",
+    "wellness": "Велнес"
+  }
+}

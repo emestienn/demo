@@ -1,0 +1,59 @@
+{
+  "greeting": {
+    "morning": "Xayrli tong",
+    "afternoon": "Xayrli kun",
+    "evening": "Xayrli kech"
+  },
+  "heroTitle": "Bugungi Koreyangiz{{name}}.",
+  "hero": {
+    "exploreNeighborhood": "{{neighborhood}} hududini o'rganing",
+    "seeSpot": "Joyni ko'rish"
+  },
+  "sections": {
+    "trending": {
+      "eyebrow": "Hozir",
+      "title": "Butun Koreyada mashhur"
+    },
+    "forYou": {
+      "eyebrow": "Siz uchun tanlangan",
+      "title": "Sizning tanlovlaringiz"
+    },
+    "hiddenGems": {
+      "eyebrow": "E'tibordan chetda",
+      "title": "Yashirin joylar"
+    },
+    "nearby": {
+      "eyebrow": "Yaqin atrofda",
+      "title": "Yaqin joylar"
+    },
+    "upcomingEvents": {
+      "eyebrow": "O'tkazib yubormang",
+      "title": "Yaqinlashib kelayotgan tadbirlar"
+    },
+    "communityPicks": {
+      "eyebrow": "Jamoatchilikdan",
+      "title": "Jamoa tanlovi"
+    },
+    "dailyChallenge": {
+      "eyebrow": "Ketma-ketlikni saqlang",
+      "title": "Koreys tilini o'rganing",
+      "todaysLesson": "Bugungi dars",
+      "startLesson": "Darsni boshlash"
+    }
+  },
+  "search": {
+    "placeholder": "Joylar, taomlar, hududlar, tadbirlarni qidiring...",
+    "emptyTitle": "DONGNE'da qidiruv",
+    "emptyDescription": "Butun platforma bo'ylab qidirish uchun kamida 2 ta belgi kiriting.",
+    "noResultsTitle": "\"{{query}}\" bo'yicha natija topilmadi",
+    "noResultsDescription": "Boshqa kalit so'zni sinab ko'ring."
+  },
+  "sectionLabels": {
+    "places": "Joylar",
+    "neighborhoods": "Hududlar",
+    "cities": "Shaharlar",
+    "food": "Taomlar",
+    "events": "Tadbirlar",
+    "culture": "Madaniyat"
+  }
+}

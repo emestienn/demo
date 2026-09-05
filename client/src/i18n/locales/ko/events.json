@@ -1,0 +1,28 @@
+{
+  "eyebrow": "지금 열리는 행사",
+  "title": "한국 전역의 이벤트",
+  "filters": {
+    "allTypes": "모든 유형",
+    "allCities": "모든 도시"
+  },
+  "types": {
+    "concert": "콘서트",
+    "festival": "페스티벌",
+    "exhibition": "전시회",
+    "popUp": "팝업",
+    "market": "마켓",
+    "performance": "공연",
+    "cultural": "문화 행사"
+  },
+  "empty": {
+    "title": "예정된 이벤트가 없어요",
+    "description": "곧 다시 확인해 보시거나, 문화 페이지에서 지난 하이라이트를 둘러보세요."
+  },
+  "detail": {
+    "saveEvent": "이 이벤트 저장하기"
+  },
+  "toast": {
+    "saved": "이벤트가 저장되었어요",
+    "removed": "저장 목록에서 삭제되었어요"
+  }
+}

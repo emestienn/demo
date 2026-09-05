@@ -1,0 +1,15 @@
+{
+  "eyebrow": "Community",
+  "heading": "What everyone's finding",
+  "composePlaceholder": "Share a discovery...",
+  "postedToast": "Posted to the community",
+  "tabs": {
+    "all": "All",
+    "following": "Following"
+  },
+  "empty": {
+    "title": "No posts yet",
+    "description": "Be the first to share a discovery."
+  },
+  "commentPlaceholder": "Write a comment..."
+}

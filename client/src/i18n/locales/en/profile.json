@@ -1,0 +1,80 @@
+{
+  "cover": {
+    "change": "Change cover"
+  },
+  "stats": {
+    "followers": "Followers",
+    "following": "Following",
+    "dayStreak": "{{count}} day streak"
+  },
+  "tabs": {
+    "posts": "Posts",
+    "collections": "Collections"
+  },
+  "posts": {
+    "composerPlaceholder": "Share a discovery...",
+    "emptyTitle": "No posts yet"
+  },
+  "collectionsTab": {
+    "itemsCount": "{{count}} items",
+    "emptyTitle": "No public collections"
+  },
+  "toasts": {
+    "coverUpdated": "Cover photo updated",
+    "posted": "Posted",
+    "profileUpdated": "Profile updated"
+  },
+  "editModal": {
+    "title": "Edit profile",
+    "changePhoto": "Change photo",
+    "displayName": "Display name",
+    "bio": "Bio",
+    "interests": "Interests (comma separated)",
+    "interestsPlaceholder": "cafe, kpop, nightlife"
+  },
+  "collectionsPage": {
+    "eyebrow": "Your account",
+    "title": "Collections",
+    "newCollection": "New collection",
+    "namePlaceholder": "Collection name",
+    "descriptionPlaceholder": "Description (optional)",
+    "makePublic": "Make this collection public",
+    "createdToast": "Collection created",
+    "noDescription": "No description",
+    "itemsCount": "{{count}} items",
+    "emptyTitle": "No collections yet",
+    "emptyDescription": "Create your first collection to organize places, food, and events."
+  },
+  "collectionDetail": {
+    "eyebrow": "Collection · by {{name}}",
+    "privateMessage": "This collection is private.",
+    "emptyTitle": "This collection is empty",
+    "emptyDescription": "Add places, food, events, or posts using the collect button on their pages."
+  },
+  "itemTypes": {
+    "Place": "Place",
+    "Post": "Post",
+    "Event": "Event",
+    "Food": "Food"
+  },
+  "addToCollection": {
+    "title": "Save to collection",
+    "addedToast": "Added to collection",
+    "addErrorToast": "Could not add to collection",
+    "createErrorToast": "Could not create collection",
+    "createdAndAddedToast": "Created \"{{name}}\" and added item",
+    "namePlaceholder": "New collection name",
+    "noCollections": "No collections yet.",
+    "add": "Add"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark all read",
+    "emptyTitle": "No notifications yet",
+    "emptyDescription": "Likes, comments, follows, and achievements will show up here.",
+    "ariaLabel": "Notifications",
+    "allCaughtUp": "You're all caught up.",
+    "viewAll": "View all",
+    "panelTitle": "Notifications"
+  }
+}

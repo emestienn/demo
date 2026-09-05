@@ -1,0 +1,20 @@
+{
+  "eyebrow": "AI Korea Assistant",
+  "heading": "Tell me your day. I'll build the route.",
+  "subheading": "Built from DONGNE's real database of places, food, and events — not a generic chatbot.",
+  "inputPlaceholder": "I have one free day in Seoul, I like...",
+  "prompts": {
+    "seoulFashion": "I have one free day in Seoul, I like street fashion and cheap food",
+    "busanBeach": "Budget trip in Busan, I love beaches and seafood",
+    "gangnamLuxury": "Luxury day in Gangnam with K-beauty shopping",
+    "hongdaeMusic": "Underground music night in Hongdae"
+  },
+  "errorFallback": "The assistant couldn't build an itinerary right now",
+  "aiEnhanced": "Enhanced by AI narrative generation",
+  "sections": {
+    "route": "Your route",
+    "food": "Food to try",
+    "events": "Happening that week",
+    "phrases": "Useful phrases"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "citiesList": {
+    "eyebrow": "Kashf etish",
+    "title": "Yetti shahar, bitta mamlakat",
+    "placesCount": "{{count}} ta joy",
+    "neighborhoodsCount": "{{count}} ta mahalla"
+  },
+  "cityDetail": {
+    "stats": {
+      "neighborhoods": "Mahallalar",
+      "places": "Joylar",
+      "avgRating": "O'rtacha reyting",
+      "bestSeason": "Eng qulay fasl"
+    },
+    "whereToGoEyebrow": "Qayerga borish kerak",
+    "neighborhoodsTitle": "Mahallalar",
+    "topRatedEyebrow": "Eng yuqori baholangan",
+    "placesTitle": "Borishga arziydigan joylar",
+    "happeningSoonEyebrow": "Tez orada",
+    "eventsTitle": "Yaqinlashib kelayotgan tadbirlar"
+  },
+  "neighborhoodDetail": {
+    "info": {
+      "atmosphere": "Muhit",
+      "avgPrice": "O'rtacha narx",
+      "bestTime": "Eng qulay vaqt",
+      "rating": "Reyting"
+    },
+    "whatToDoEyebrow": "Nima qilish mumkin",
+    "popularActivitiesTitle": "Mashhur mashg'ulotlar",
+    "spotsEyebrow": "{{count}} ta joy",
+    "placesTitle": "Bu yerdagi joylar",
+    "comingUpEyebrow": "Yaqinda",
+    "eventsTitle": "Ushbu mahalladagi tadbirlar",
+    "localVoicesEyebrow": "Mahalliy fikrlar",
+    "communityTitle": "Jamoadan"
+  },
+  "mapExplorer": {
+    "allCities": "Barcha shaharlar",
+    "allCategories": "Barcha toifalar",
+    "details": "Batafsil",
+    "viewDetailsArrow": "Batafsil →",
+    "noResults": "Ushbu filtrlarga mos joylar topilmadi.",
+    "savedToast": "Hisobingizga saqlandi"
+  },
+  "placeDetail": {
+    "dramaLocation": "Drama suratga olingan joy",
+    "reviewsCount": "{{count}} ta sharh",
+    "reviewsEyebrow": "Sharhlar",
+    "reviewsTitle": "{{count}} ta jamoat sharhi",
+    "reviewPlaceholder": "Tajribangiz bilan bo'lishing...",
+    "postReview": "Sharh joylash",
+    "reviewPosted": "Sharh joylandi",
+    "reviewError": "Sharhni joylab bo'lmadi",
+    "noReviewsTitle": "Hozircha sharhlar yo'q",
+    "noReviewsDescription": "Bu joy haqida birinchi bo'lib fikr bildiring.",
+    "eatNearbyEyebrow": "Yaqin atrofda ovqatlanish",
+    "foodTitle": "Bu yerda tatib ko'rish kerak bo'lgan taomlar",
+    "happeningHereEyebrow": "Bu yerda bo'lib o'tmoqda",
+    "eventsTitle": "Tegishli tadbirlar",
+    "saved": "Saqlandi",
+    "collect": "To'plamga qo'shish",
+    "removedFromSaved": "Saqlanganlardan olib tashlandi",
+    "savedToAccount": "Hisobingizga saqlandi",
+    "nearbyIn": "{{name}} yaqinida",
+    "reportPrompt": "Ushbu joyda nima noto'g'ri?",
+    "reportSubmitted": "Shikoyat yuborildi — rahmat",
+    "reportThisPlace": "Ushbu joy haqida shikoyat qilish"
+  },
+  "savedPlaces": {
+    "eyebrow": "Hisobingiz",
+    "title": "Saqlangan joylar",
+    "emptyTitle": "Hozircha saqlangan joylar yo'q",
+    "emptyDescription": "Xaritani yoki kashfiyot lentasini ko'rib chiqing va tashrif buyurmoqchi bo'lgan joylarni saqlang."
+  },
+  "categories": {
+    "cafe": "Kafe",
+    "restaurant": "Restoran",
+    "bar": "Bar",
+    "nightlife": "Tungi hayot",
+    "shopping": "Xarid qilish",
+    "culture": "Madaniyat",
+    "landmark": "Diqqatga sazovor joy",
+    "nature": "Tabiat",
+    "kpop": "K-pop",
+    "art": "San'at",
+    "market": "Bozor",
+    "wellness": "Sog'lomlashtirish"
+  }
+}

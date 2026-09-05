@@ -1,0 +1,59 @@
+{
+  "greeting": {
+    "morning": "좋은 아침이에요",
+    "afternoon": "좋은 오후예요",
+    "evening": "좋은 저녁이에요"
+  },
+  "heroTitle": "오늘의 대한민국{{name}}.",
+  "hero": {
+    "exploreNeighborhood": "{{neighborhood}} 둘러보기",
+    "seeSpot": "장소 보기"
+  },
+  "sections": {
+    "trending": {
+      "eyebrow": "지금",
+      "title": "한국 전역의 인기 장소"
+    },
+    "forYou": {
+      "eyebrow": "맞춤 추천",
+      "title": "당신을 위한 선택"
+    },
+    "hiddenGems": {
+      "eyebrow": "숨겨진 보석",
+      "title": "숨겨진 장소"
+    },
+    "nearby": {
+      "eyebrow": "가까운 곳",
+      "title": "주변 장소"
+    },
+    "upcomingEvents": {
+      "eyebrow": "놓치지 마세요",
+      "title": "다가오는 이벤트"
+    },
+    "communityPicks": {
+      "eyebrow": "커뮤니티에서",
+      "title": "커뮤니티 인기글"
+    },
+    "dailyChallenge": {
+      "eyebrow": "연속 기록을 이어가세요",
+      "title": "한국어 배우기",
+      "todaysLesson": "오늘의 레슨",
+      "startLesson": "레슨 시작"
+    }
+  },
+  "search": {
+    "placeholder": "장소, 음식, 동네, 이벤트 검색...",
+    "emptyTitle": "DONGNE 검색",
+    "emptyDescription": "전체 플랫폼에서 검색하려면 최소 2자 이상 입력하세요.",
+    "noResultsTitle": "\"{{query}}\"에 대한 결과가 없습니다",
+    "noResultsDescription": "다른 검색어를 시도해 보세요."
+  },
+  "sectionLabels": {
+    "places": "장소",
+    "neighborhoods": "동네",
+    "cities": "도시",
+    "food": "음식",
+    "events": "이벤트",
+    "culture": "문화"
+  }
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DONGNE — Речь для Demo Day</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 18mm 20mm 18mm;
+  }
+
+  :root {
+    --ink: #14131f;
+    --muted: #5b5a6e;
+    --faint: #8a8998;
+    --cyan: #0891b2;
+    --purple: #7c3aed;
+    --line: #e6e4ee;
+    --paper: #ffffff;
+    --tag-bg: #f4f2fb;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #ece9f5;
+    color: var(--ink);
+    font-family: "Georgia", "Times New Roman", "PT Serif", serif;
+  }
+
+  .sheet {
+    max-width: 800px;
+    margin: 32px auto;
+    background: var(--paper);
+    padding: 56px 60px 64px;
+    box-shadow: 0 20px 60px rgba(20, 19, 31, 0.18);
+    border-radius: 4px;
+  }
+
+  /* ---------- Cover ---------- */
+  .cover {
+    padding-bottom: 34px;
+    margin-bottom: 34px;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .cover .kicker {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--purple);
+    font-weight: 700;
+    margin: 0 0 14px;
+  }
+
+  .cover .brand {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 54px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin: 0;
+    line-height: 1;
+    background: linear-gradient(90deg, var(--purple), var(--cyan));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .cover .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--cyan);
+    margin-right: 10px;
+    vertical-align: middle;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .cover .tagline {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 17px;
+    margin: 14px 0 22px;
+  }
+
+  .cover .meta {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 28px;
+    font-size: 12.5px;
+    color: var(--faint);
+  }
+
+  .cover .meta b {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  /* ---------- Speech body ---------- */
+  .speech p {
+    font-size: 16.5px;
+    line-height: 1.75;
+    margin: 0 0 20px;
+    position: relative;
+    padding-left: 54px;
+  }
+
+  .speech p .time {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 40px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--cyan);
+    letter-spacing: 0.02em;
+  }
+
+  .tag {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--purple);
+    background: var(--tag-bg);
+    padding: 3px 9px;
+    border-radius: 999px;
+    margin: 30px 0 14px 54px;
+  }
+
+  .tag:first-of-type { margin-top: 6px; }
+
+  .closing {
+    margin-top: 8px;
+    padding: 18px 22px;
+    background: var(--tag-bg);
+    border-left: 3px solid var(--purple);
+    border-radius: 4px;
+    font-style: italic;
+    color: var(--ink);
+  }
+  .closing p { padding-left: 0; margin: 0; font-size: 17px; }
+  .closing p + p { margin-top: 10px; }
+  .closing .time { display: none; }
+
+  /* ---------- Cheat sheet ---------- */
+  .cheatsheet {
+    margin-top: 46px;
+    padding-top: 30px;
+    border-top: 2px dashed var(--line);
+    page-break-before: always;
+  }
+
+  .cheatsheet h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 4px;
+  }
+
+  .cheatsheet .sub {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    color: var(--faint);
+    margin: 0 0 22px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 20px;
+  }
+
+  .card {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+
+  .card .n {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    margin: 0 0 5px;
+  }
+
+  .card .d {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .stats {
+    margin-top: 22px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .stat {
+    background: var(--tag-bg);
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 12px;
+    color: var(--ink);
+  }
+  .stat b { color: var(--purple); }
+
+  .footer-note {
+    margin-top: 36px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 11px;
+    color: var(--faint);
+    text-align: center;
+  }
+
+  @media print {
+    html, body { background: #fff; }
+    .sheet { box-shadow: none; margin: 0; border-radius: 0; max-width: none; padding: 0; }
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+
+    <div class="cover">
+      <p class="kicker">Demo Day · Речь основателя</p>
+      <h1 class="brand"><span class="dot"></span>DONGNE</h1>
+      <p class="tagline">«Корея, открытая заново — квартал за кварталом»</p>
+      <div class="meta">
+        <span><b>Спикер:</b> Танзила Носирова</span>
+        <span><b>Длительность:</b> ≈ 3–4 минуты</span>
+        <span><b>Формат:</b> питч-презентация продукта</span>
+      </div>
+    </div>
+
+    <div class="speech">
+
+      <span class="tag">Проблема</span>
+      <p><span class="time">0:00</span>Добрый день! Меня зовут Абдумалик, и я хочу рассказать вам о продукте, над которым мы работаем — DONGNE.</p>
+      <p><span class="time">0:12</span>Представьте: вы приезжаете в Корею — жить, учиться, работать или просто в путешествие. Вокруг — миллионы кафе, десятки районов, сотни мероприятий и язык, который вы не понимаете. Google Maps покажет точку на карте, но не объяснит, почему именно этот квартал Сеула стоит увидеть, где заказать еду по-настоящему по-местному и как вообще сказать «спасибо» по-корейски. Информация разбросана по десяткам блогов и форумов — и почти вся она на английском или корейском.</p>
+
+      <span class="tag">Решение</span>
+      <p><span class="time">0:48</span>DONGNE решает эту проблему одним продуктом. Само название переводится с корейского как «квартал», «своя территория» — и это именно то, что мы делаем: помогаем человеку почувствовать Корею своей, квартал за кварталом.</p>
+
+      <span class="tag">Что уже работает</span>
+      <p><span class="time">1:08</span><b>Discover и Explore</b> — кураторская карта городов и районов: сейчас в базе 7 городов, 10 районов и 38 отобранных мест — от кофеен Сонсу до рынков Пусана — с категориями, рейтингами и интерактивной картой, а не бесконечной лентой непроверенных отзывов.</p>
+      <p><span class="time">1:32</span><b>Food и Culture</b> — гид по 20 блюдам корейской кухни и 10 материалам о культуре, который объясняет не только «что заказать», но и «почему это едят именно так».</p>
+      <p><span class="time">1:48</span><b>Events</b> — афиша из актуальных мероприятий города, чтобы не пропустить то, что происходит здесь и сейчас.</p>
+
+      <span class="tag">Ключевая фича</span>
+      <p><span class="time">1:58</span>А вот то, чем мы особенно гордимся — <b>языковой раздел</b>. Это не скучный учебник, а игра: флеш-карточки, викторины, уровни, XP и ежедневный streak. Учить язык становится такой же привычкой, как открыть приложение утром. Сегодня это уже 21 урок на трёх языках — корейском, русском и узбекском, потому что для тысяч людей из Центральной Азии Корея — это не туризм, а работа, учёба и новая жизнь.</p>
+
+      <span class="tag">ИИ и сообщество</span>
+      <p><span class="time">2:32</span>Есть <b>ИИ-ассистент</b>: он строит маршрут дня, подсказывает, где поесть и куда сходить — исходя из настроения и интересов человека, а не общего рейтинга.</p>
+      <p><span class="time">2:46</span>А вокруг всего этого — живое <b>сообщество</b>: люди публикуют находки, собирают личные коллекции любимых мест, подписываются друг на друга и получают достижения за активность. Это превращает справочник в социальную сеть про Корею.</p>
+
+      <span class="tag">Глобальность и доверие</span>
+      <p><span class="time">3:04</span>Мы с самого начала строили продукт как глобальный: полностью многоязычный интерфейс — английский, русский, корейский, узбекский — это не перевод «для галочки», а перевод каждой кнопки, формы и страницы, включая административную панель. И раз речь зашла об этом — у нас есть полноценная модерация: инструменты для управления контентом, пользователями и жалобами, потому что живое сообщество должно быть ещё и безопасным.</p>
+
+      <span class="tag">Почему сейчас</span>
+      <p><span class="time">3:34</span>Корейская культура сегодня — это глобальная волна: музыка, дорамы, еда, язык. Одновременно растёт поток людей из Центральной Азии, которые едут в Корею работать и учиться. Эти два тренда пересекаются прямо сейчас — и DONGNE стоит ровно на этом пересечении.</p>
+
+      <div class="closing">
+        <p><span class="time"></span>Мы уже построили полноценный продукт — с геймификацией, ИИ-ассистентом, сообществом и языковым обучением на трёх языках. Сейчас нам нужны партнёры, первые пользователи и инвестиции, чтобы наполнить платформу живыми историями настоящих людей в Корее и масштабировать её на новые города и страны.</p>
+        <p>Корея — большая. Но начинается она с одного квартала. Давайте откроем его вместе. Спасибо!</p>
+      </div>
+
+    </div>
+
+    <div class="cheatsheet">
+      <h2>Шпаргалка для выступающего</h2>
+      <p class="sub">Ключевые модули продукта — на случай вопросов из зала</p>
+
+      <div class="grid">
+        <div class="card">
+          <p class="n">Discover / Explore</p>
+          <p class="d">Города → районы → места. Карта, категории, рейтинги, избранное.</p>
+        </div>
+        <div class="card">
+          <p class="n">Food & Culture</p>
+          <p class="d">Гиды по корейской кухне и культурным темам с фильтрами по категориям.</p>
+        </div>
+        <div class="card">
+          <p class="n">Events</p>
+          <p class="d">Афиша мероприятий по городам и типам событий.</p>
+        </div>
+        <div class="card">
+          <p class="n">Язык (Learn)</p>
+          <p class="d">Флеш-карточки + викторины. Корейский, русский, узбекский. XP и streak.</p>
+        </div>
+        <div class="card">
+          <p class="n">AI-ассистент</p>
+          <p class="d">Персональный маршрут дня: еда, места, события — под настроение.</p>
+        </div>
+        <div class="card">
+          <p class="n">Community</p>
+          <p class="d">Лента постов, лайки, комментарии, подписки, профиль с обложкой.</p>
+        </div>
+        <div class="card">
+          <p class="n">Коллекции</p>
+          <p class="d">Личные подборки любимых мест, событий и постов.</p>
+        </div>
+        <div class="card">
+          <p class="n">Геймификация</p>
+          <p class="d">Уровни, XP, achievements, streak — вовлечённость через привычку.</p>
+        </div>
+        <div class="card">
+          <p class="n">Мультиязычность</p>
+          <p class="d">Интерфейс полностью на EN / RU / KO / UZ — переключается в один клик.</p>
+        </div>
+        <div class="card">
+          <p class="n">Admin-панель</p>
+          <p class="d">Управление контентом, пользователями, ролями и жалобами.</p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <span class="stat"><b>7</b> городов</span>
+        <span class="stat"><b>10</b> районов</span>
+        <span class="stat"><b>38</b> мест</span>
+        <span class="stat"><b>20</b> блюд</span>
+        <span class="stat"><b>10</b> культурных материалов</span>
+        <span class="stat"><b>10</b> событий</span>
+        <span class="stat"><b>21</b> языковой урок · 3 языка</span>
+        <span class="stat"><b>4</b> языка интерфейса</span>
+      </div>
+    </div>
+
+    <p class="footer-note">DONGNE — Demo Day · Речь основателя</p>
+  </div>
+</body>
+</html>

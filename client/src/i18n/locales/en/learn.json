@@ -1,0 +1,58 @@
+{
+  "languages": {
+    "ko": {
+      "label": "Korean",
+      "eyebrow": "Learn Korean",
+      "title": "Korean, one situation at a time"
+    },
+    "ru": {
+      "label": "Russian",
+      "eyebrow": "Learn Russian",
+      "title": "Russian, one situation at a time"
+    },
+    "uz": {
+      "label": "Uzbek",
+      "eyebrow": "Learn Uzbek",
+      "title": "Uzbek, one situation at a time"
+    }
+  },
+  "categories": {
+    "alphabet": "Alphabet",
+    "greetings": "Greetings",
+    "food": "Food",
+    "directions": "Directions",
+    "shopping": "Shopping",
+    "slang": "Slang",
+    "travel": "Travel"
+  },
+  "home": {
+    "lessonsCompleted": "Lessons completed",
+    "dayStreak": "Day streak",
+    "level": "Level",
+    "levelValue": "Lv. {{level}}",
+    "xpValue": "{{xp}} XP",
+    "curriculumEyebrow": "Curriculum",
+    "lessonsTitle": "Lessons",
+    "milestonesEyebrow": "Milestones",
+    "achievementsTitle": "Achievements",
+    "wordsCount": "{{count}} words · Level {{level}}",
+    "xpReward": "+{{xp}} XP"
+  },
+  "lesson": {
+    "allLessons": "All lessons",
+    "flashcard": "Flashcard {{current}} of {{total}}",
+    "tapToFlip": "Tap to flip",
+    "flip": "Flip",
+    "next": "Next",
+    "question": "Question {{current}} of {{total}}",
+    "noQuiz": "No quiz for this lesson yet — nice work reviewing the vocabulary!",
+    "backToLessons": "Back to lessons",
+    "scorePercent": "{{score}}%",
+    "correctOfTotal": "{{correct}} of {{total}} correct",
+    "lessonPassed": "Lesson passed!",
+    "lessonPassedWithXp": "Lesson passed — +{{xp}} XP!",
+    "notPassed": "Score 70%+ to pass. Try again!",
+    "achievement": "Achievement: {{title}}",
+    "retryQuiz": "Retry quiz"
+  }
+}

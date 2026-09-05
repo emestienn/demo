@@ -1,0 +1,39 @@
+{
+  "list": {
+    "eyebrow": "Koreyani tating",
+    "title": "Koreys taomlari haqida to'liq ma'lumot"
+  },
+  "categories": {
+    "bbq": "Barbekyu",
+    "street-food": "Ko'cha taomlari",
+    "noodles": "Lag'mon",
+    "soups-stews": "Sho'rvalar",
+    "desserts": "Shirinliklar",
+    "cafe-drinks": "Kafe ichimliklari",
+    "traditional": "An'anaviy",
+    "regional": "Mintaqaviy",
+    "convenience-store": "Do'kon mahsulotlari"
+  },
+  "filters": {
+    "all": "Barchasi",
+    "spiceAny": "Achchiqlik darajasi muhim emas",
+    "spiceNone": "Achchiq emas",
+    "spiceMild": "Yengil achchiq (≤2)",
+    "spiceMedium": "O'rtacha achchiq (≤4)"
+  },
+  "empty": {
+    "title": "Mos taom topilmadi",
+    "description": "Boshqa kategoriya yoki achchiqlik darajasini tanlab ko'ring."
+  },
+  "detail": {
+    "tryItHere": "Bu yerda tatib ko'ring",
+    "recommendedPlaces": "Tavsiya etilgan joylar"
+  },
+  "info": {
+    "origin": "Kelib chiqishi",
+    "region": "Mintaqa",
+    "priceRange": "Narx oralig'i",
+    "spiceLevel": "Achchiqlik darajasi",
+    "rating": "Reyting"
+  }
+}

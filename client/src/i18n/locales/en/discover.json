@@ -1,0 +1,59 @@
+{
+  "greeting": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening"
+  },
+  "heroTitle": "Your Korea, today{{name}}.",
+  "hero": {
+    "exploreNeighborhood": "Explore {{neighborhood}}",
+    "seeSpot": "See the spot"
+  },
+  "sections": {
+    "trending": {
+      "eyebrow": "Right now",
+      "title": "Trending across Korea"
+    },
+    "forYou": {
+      "eyebrow": "Personalized",
+      "title": "Your picks"
+    },
+    "hiddenGems": {
+      "eyebrow": "Under the radar",
+      "title": "Hidden places"
+    },
+    "nearby": {
+      "eyebrow": "Close by",
+      "title": "Nearby places"
+    },
+    "upcomingEvents": {
+      "eyebrow": "Don't miss",
+      "title": "Upcoming events"
+    },
+    "communityPicks": {
+      "eyebrow": "From the community",
+      "title": "Community picks"
+    },
+    "dailyChallenge": {
+      "eyebrow": "Keep your streak",
+      "title": "Learn Korean",
+      "todaysLesson": "Today's lesson",
+      "startLesson": "Start lesson"
+    }
+  },
+  "search": {
+    "placeholder": "Search places, food, neighborhoods, events...",
+    "emptyTitle": "Search DONGNE",
+    "emptyDescription": "Type at least 2 characters to search across the whole platform.",
+    "noResultsTitle": "No results for \"{{query}}\"",
+    "noResultsDescription": "Try a different keyword."
+  },
+  "sectionLabels": {
+    "places": "Places",
+    "neighborhoods": "Neighborhoods",
+    "cities": "Cities",
+    "food": "Food",
+    "events": "Events",
+    "culture": "Culture"
+  }
+}

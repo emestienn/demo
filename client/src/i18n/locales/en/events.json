@@ -1,0 +1,28 @@
+{
+  "eyebrow": "What's on",
+  "title": "Events across Korea",
+  "filters": {
+    "allTypes": "All types",
+    "allCities": "All cities"
+  },
+  "types": {
+    "concert": "Concert",
+    "festival": "Festival",
+    "exhibition": "Exhibition",
+    "popUp": "Pop-up",
+    "market": "Market",
+    "performance": "Performance",
+    "cultural": "Cultural"
+  },
+  "empty": {
+    "title": "No upcoming events",
+    "description": "Check back soon, or explore past highlights on culture pages."
+  },
+  "detail": {
+    "saveEvent": "Save this event"
+  },
+  "toast": {
+    "saved": "Event saved",
+    "removed": "Removed from saved"
+  }
+}

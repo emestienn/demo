@@ -1,0 +1,59 @@
+{
+  "greeting": {
+    "morning": "Доброе утро",
+    "afternoon": "Добрый день",
+    "evening": "Добрый вечер"
+  },
+  "heroTitle": "Ваша Корея сегодня{{name}}.",
+  "hero": {
+    "exploreNeighborhood": "Исследуйте {{neighborhood}}",
+    "seeSpot": "Смотреть место"
+  },
+  "sections": {
+    "trending": {
+      "eyebrow": "Сейчас",
+      "title": "В тренде по всей Корее"
+    },
+    "forYou": {
+      "eyebrow": "Персонально для вас",
+      "title": "Ваш выбор"
+    },
+    "hiddenGems": {
+      "eyebrow": "Вне поля зрения",
+      "title": "Скрытые места"
+    },
+    "nearby": {
+      "eyebrow": "Рядом с вами",
+      "title": "Места поблизости"
+    },
+    "upcomingEvents": {
+      "eyebrow": "Не пропустите",
+      "title": "Ближайшие события"
+    },
+    "communityPicks": {
+      "eyebrow": "От сообщества",
+      "title": "Выбор сообщества"
+    },
+    "dailyChallenge": {
+      "eyebrow": "Не прерывайте серию",
+      "title": "Учите корейский",
+      "todaysLesson": "Урок на сегодня",
+      "startLesson": "Начать урок"
+    }
+  },
+  "search": {
+    "placeholder": "Поиск мест, еды, районов, событий...",
+    "emptyTitle": "Поиск по DONGNE",
+    "emptyDescription": "Введите минимум 2 символа, чтобы искать по всей платформе.",
+    "noResultsTitle": "Нет результатов по запросу «{{query}}»",
+    "noResultsDescription": "Попробуйте другое ключевое слово."
+  },
+  "sectionLabels": {
+    "places": "Места",
+    "neighborhoods": "Районы",
+    "cities": "Города",
+    "food": "Еда",
+    "events": "События",
+    "culture": "Культура"
+  }
+}

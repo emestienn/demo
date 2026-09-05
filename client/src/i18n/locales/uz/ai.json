@@ -1,0 +1,20 @@
+{
+  "eyebrow": "AI Koreya Yordamchisi",
+  "heading": "Kuningizni ayting. Men marshrut tuzib beraman.",
+  "subheading": "Oddiy chatbot emas — DONGNE'ning joylar, taomlar va tadbirlar bo'yicha haqiqiy bazasi asosida yaratilgan.",
+  "inputPlaceholder": "Seulda bir kunlik bo'sh vaqtim bor, menga yoqadi...",
+  "prompts": {
+    "seoulFashion": "Seulda bir kunlik bo'sh vaqtim bor, men strit fashion va arzon ovqatni yaxshi ko'raman",
+    "busanBeach": "Busanga tejamkor sayohat, men plyajlar va dengiz mahsulotlarini yaxshi ko'raman",
+    "gangnamLuxury": "Gangnamda K-beauty xarid qilish bilan hashamatli kun",
+    "hongdaeMusic": "Hongdae'da underground musiqa kechasi"
+  },
+  "errorFallback": "Yordamchi hozircha marshrut tuza olmadi",
+  "aiEnhanced": "AI hikoya generatsiyasi bilan yaxshilangan",
+  "sections": {
+    "route": "Sizning marshrutingiz",
+    "food": "Tatib ko'rish uchun taomlar",
+    "events": "Shu hafta bo'lib o'tadigan tadbirlar",
+    "phrases": "Foydali iboralar"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "citiesList": {
+    "eyebrow": "Explore",
+    "title": "Seven cities, one country",
+    "placesCount": "{{count}} places",
+    "neighborhoodsCount": "{{count}} neighborhoods"
+  },
+  "cityDetail": {
+    "stats": {
+      "neighborhoods": "Neighborhoods",
+      "places": "Places",
+      "avgRating": "Avg rating",
+      "bestSeason": "Best season"
+    },
+    "whereToGoEyebrow": "Where to go",
+    "neighborhoodsTitle": "Neighborhoods",
+    "topRatedEyebrow": "Top rated",
+    "placesTitle": "Places worth the trip",
+    "happeningSoonEyebrow": "Happening soon",
+    "eventsTitle": "Upcoming events"
+  },
+  "neighborhoodDetail": {
+    "info": {
+      "atmosphere": "Atmosphere",
+      "avgPrice": "Avg price",
+      "bestTime": "Best time",
+      "rating": "Rating"
+    },
+    "whatToDoEyebrow": "What to do",
+    "popularActivitiesTitle": "Popular activities",
+    "spotsEyebrow": "{{count}} spots",
+    "placesTitle": "Places here",
+    "comingUpEyebrow": "Coming up",
+    "eventsTitle": "Events in this neighborhood",
+    "localVoicesEyebrow": "Local voices",
+    "communityTitle": "From the community"
+  },
+  "mapExplorer": {
+    "allCities": "All cities",
+    "allCategories": "All categories",
+    "details": "Details",
+    "viewDetailsArrow": "View details →",
+    "noResults": "No places match these filters.",
+    "savedToast": "Saved to your account"
+  },
+  "placeDetail": {
+    "dramaLocation": "Drama location",
+    "reviewsCount": "{{count}} reviews",
+    "reviewsEyebrow": "Reviews",
+    "reviewsTitle": "{{count}} community reviews",
+    "reviewPlaceholder": "Share your experience...",
+    "postReview": "Post review",
+    "reviewPosted": "Review posted",
+    "reviewError": "Could not post review",
+    "noReviewsTitle": "No reviews yet",
+    "noReviewsDescription": "Be the first to share your experience here.",
+    "eatNearbyEyebrow": "Eat nearby",
+    "foodTitle": "Food to try here",
+    "happeningHereEyebrow": "Happening here",
+    "eventsTitle": "Related events",
+    "saved": "Saved",
+    "collect": "Collect",
+    "removedFromSaved": "Removed from saved",
+    "savedToAccount": "Saved to your account",
+    "nearbyIn": "Nearby in {{name}}",
+    "reportPrompt": "What's wrong with this listing?",
+    "reportSubmitted": "Report submitted — thank you",
+    "reportThisPlace": "Report this place"
+  },
+  "savedPlaces": {
+    "eyebrow": "Your account",
+    "title": "Saved places",
+    "emptyTitle": "No saved places yet",
+    "emptyDescription": "Explore the map or discover feed and save places you want to visit."
+  },
+  "categories": {
+    "cafe": "Cafe",
+    "restaurant": "Restaurant",
+    "bar": "Bar",
+    "nightlife": "Nightlife",
+    "shopping": "Shopping",
+    "culture": "Culture",
+    "landmark": "Landmark",
+    "nature": "Nature",
+    "kpop": "K-pop",
+    "art": "Art",
+    "market": "Market",
+    "wellness": "Wellness"
+  }
+}

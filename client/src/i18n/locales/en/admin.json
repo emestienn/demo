@@ -1,0 +1,170 @@
+{
+  "layout": {
+    "backToDongne": "Back to DONGNE",
+    "adminConsole": "Admin Console",
+    "nav": {
+      "overview": "Overview",
+      "users": "Users",
+      "places": "Places",
+      "cities": "Cities & Neighborhoods",
+      "food": "Food",
+      "culture": "Culture",
+      "events": "Events",
+      "reports": "Reports"
+    }
+  },
+  "overview": {
+    "title": "Platform overview",
+    "stats": {
+      "users": "Users",
+      "usersSub": "+{{count}} in 30d",
+      "places": "Places",
+      "posts": "Posts",
+      "events": "Events",
+      "reviews": "Reviews",
+      "openReports": "Open reports",
+      "engagement": "Engagement (7d)"
+    },
+    "activityChart": "Activity over 30 days",
+    "categoryChart": "Places by category",
+    "mostViewedPlaces": "Most viewed places",
+    "viewsCount": "{{count}} views",
+    "usersByRole": "Users by role"
+  },
+  "users": {
+    "title": "Users",
+    "searchPlaceholder": "Search username or email",
+    "columns": {
+      "user": "User",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status"
+    },
+    "roles": {
+      "user": "User",
+      "moderator": "Moderator",
+      "admin": "Admin"
+    },
+    "status": {
+      "active": "Active",
+      "suspended": "Suspended"
+    },
+    "suspend": "Suspend",
+    "reinstate": "Reinstate",
+    "toast": {
+      "roleUpdated": "Role updated",
+      "userSuspended": "User suspended",
+      "userReinstated": "User reinstated"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "reportedBy": "{{targetType}} reported by {{reporter}}",
+    "status": {
+      "open": "Open",
+      "reviewing": "Reviewing",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "empty": {
+      "title": "No reports",
+      "description": "Reported content will show up here for moderation."
+    }
+  },
+  "resources": {
+    "places": { "title": "Places", "singular": "place" },
+    "food": { "title": "Food", "singular": "food item" },
+    "culture": { "title": "Culture", "singular": "culture entry" },
+    "events": { "title": "Events", "singular": "event" },
+    "cities": { "title": "Cities", "singular": "city" },
+    "neighborhoods": { "title": "Neighborhoods", "singular": "neighborhood" }
+  },
+  "fields": {
+    "places": {
+      "name": "Name",
+      "category": "Category",
+      "neighborhood": "Neighborhood",
+      "rating": "Rating",
+      "description": "Description",
+      "address": "Address",
+      "priceLevel": "Price level (1-4)",
+      "tags": "Tags (comma separated)",
+      "lat": "Latitude",
+      "lng": "Longitude",
+      "image": "Image URL"
+    },
+    "food": {
+      "name": "Name",
+      "category": "Category",
+      "spice": "Spice",
+      "rating": "Rating",
+      "nameEnglish": "English name",
+      "nameKorean": "Korean name",
+      "description": "Description",
+      "origin": "Origin",
+      "region": "Region",
+      "priceRange": "Price range",
+      "spiceLevel": "Spice level (0-5)",
+      "image": "Image URL"
+    },
+    "culture": {
+      "title": "Title",
+      "type": "Type",
+      "popularity": "Popularity",
+      "summary": "Summary",
+      "body": "Body",
+      "tags": "Tags (comma separated)",
+      "image": "Image URL",
+      "featured": "Featured"
+    },
+    "events": {
+      "title": "Title",
+      "type": "Type",
+      "date": "Date",
+      "city": "City",
+      "venue": "Venue",
+      "description": "Description",
+      "startDate": "Start date",
+      "priceRange": "Price range",
+      "image": "Image URL"
+    },
+    "cities": {
+      "name": "Name",
+      "region": "Region",
+      "placeCount": "Places",
+      "tagline": "Tagline",
+      "description": "Description",
+      "bestSeason": "Best season",
+      "lat": "Center latitude",
+      "lng": "Center longitude"
+    },
+    "neighborhoods": {
+      "name": "Name",
+      "city": "City",
+      "rating": "Rating",
+      "tagline": "Tagline",
+      "description": "Description",
+      "atmosphere": "Atmosphere",
+      "vibeTags": "Vibe tags (comma separated)",
+      "lat": "Center latitude",
+      "lng": "Center longitude"
+    }
+  },
+  "resourceManager": {
+    "new": "New {{resource}}",
+    "edit": "Edit {{resource}}",
+    "selectOption": "Select...",
+    "empty": "No {{resource}} yet.",
+    "deleteConfirm": "Delete this {{resource}}? This cannot be undone.",
+    "updated": "{{resource}} updated",
+    "created": "{{resource}} created",
+    "deleted": "{{resource}} deleted",
+    "saveError": "Could not save {{resource}}"
+  },
+  "cities": {
+    "tabs": {
+      "cities": "Cities",
+      "neighborhoods": "Neighborhoods"
+    }
+  }
+}

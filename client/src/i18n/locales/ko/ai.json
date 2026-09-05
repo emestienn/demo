@@ -1,0 +1,20 @@
+{
+  "eyebrow": "AI 코리아 어시스턴트",
+  "heading": "오늘 하루를 말해주세요. 제가 경로를 짜드릴게요.",
+  "subheading": "일반 챗봇이 아닌, DONGNE의 실제 장소·음식·행사 데이터베이스를 기반으로 합니다.",
+  "inputPlaceholder": "서울에서 하루 자유시간이 있어요, 저는...",
+  "prompts": {
+    "seoulFashion": "서울에서 하루 자유시간이 있어요, 스트리트 패션과 저렴한 음식을 좋아해요",
+    "busanBeach": "부산에서 저예산 여행, 저는 해변과 해산물을 좋아해요",
+    "gangnamLuxury": "강남에서 K-뷰티 쇼핑을 곁들인 럭셔리한 하루",
+    "hongdaeMusic": "홍대에서 언더그라운드 음악의 밤"
+  },
+  "errorFallback": "지금은 어시스턴트가 일정을 만들 수 없습니다",
+  "aiEnhanced": "AI 내러티브 생성으로 강화됨",
+  "sections": {
+    "route": "당신의 경로",
+    "food": "먹어볼 음식",
+    "events": "이번 주 행사",
+    "phrases": "유용한 표현"
+  }
+}

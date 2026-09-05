@@ -1,0 +1,22 @@
+{
+  "eyebrow": "К-культура",
+  "title": "Истории за кадром",
+  "filters": {
+    "all": "Все"
+  },
+  "categories": {
+    "kpop": "K-поп",
+    "kdrama": "К-дорамы",
+    "cinema": "Кино",
+    "fashion": "Мода",
+    "beauty": "Красота",
+    "street-culture": "Уличная культура",
+    "traditional": "Традиции",
+    "festival": "Фестивали",
+    "trend": "Тренды"
+  },
+  "detail": {
+    "relatedPlacesEyebrow": "Увидеть своими глазами",
+    "relatedPlacesTitle": "Похожие места"
+  }
+}

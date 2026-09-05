@@ -1,0 +1,90 @@
+{
+  "citiesList": {
+    "eyebrow": "탐색",
+    "title": "일곱 도시, 하나의 나라",
+    "placesCount": "장소 {{count}}곳",
+    "neighborhoodsCount": "동네 {{count}}곳"
+  },
+  "cityDetail": {
+    "stats": {
+      "neighborhoods": "동네",
+      "places": "장소",
+      "avgRating": "평균 평점",
+      "bestSeason": "추천 계절"
+    },
+    "whereToGoEyebrow": "가볼 만한 곳",
+    "neighborhoodsTitle": "동네",
+    "topRatedEyebrow": "최고 평점",
+    "placesTitle": "꼭 가볼 만한 장소",
+    "happeningSoonEyebrow": "곧 진행",
+    "eventsTitle": "다가오는 이벤트"
+  },
+  "neighborhoodDetail": {
+    "info": {
+      "atmosphere": "분위기",
+      "avgPrice": "평균 가격",
+      "bestTime": "추천 시간대",
+      "rating": "평점"
+    },
+    "whatToDoEyebrow": "즐길 거리",
+    "popularActivitiesTitle": "인기 활동",
+    "spotsEyebrow": "{{count}}곳",
+    "placesTitle": "이 동네의 장소",
+    "comingUpEyebrow": "다가오는 일정",
+    "eventsTitle": "이 동네의 이벤트",
+    "localVoicesEyebrow": "현지인의 목소리",
+    "communityTitle": "커뮤니티 게시글"
+  },
+  "mapExplorer": {
+    "allCities": "모든 도시",
+    "allCategories": "모든 카테고리",
+    "details": "자세히 보기",
+    "viewDetailsArrow": "자세히 보기 →",
+    "noResults": "이 필터에 맞는 장소가 없습니다.",
+    "savedToast": "계정에 저장되었습니다"
+  },
+  "placeDetail": {
+    "dramaLocation": "드라마 촬영지",
+    "reviewsCount": "리뷰 {{count}}개",
+    "reviewsEyebrow": "리뷰",
+    "reviewsTitle": "커뮤니티 리뷰 {{count}}개",
+    "reviewPlaceholder": "이곳에서의 경험을 공유해 주세요...",
+    "postReview": "리뷰 등록",
+    "reviewPosted": "리뷰가 등록되었습니다",
+    "reviewError": "리뷰를 등록할 수 없습니다",
+    "noReviewsTitle": "아직 리뷰가 없습니다",
+    "noReviewsDescription": "이곳에 대한 첫 리뷰를 남겨보세요.",
+    "eatNearbyEyebrow": "근처에서 먹기",
+    "foodTitle": "여기서 먹어볼 음식",
+    "happeningHereEyebrow": "여기서 진행",
+    "eventsTitle": "관련 이벤트",
+    "saved": "저장됨",
+    "collect": "컬렉션에 담기",
+    "removedFromSaved": "저장 목록에서 삭제됨",
+    "savedToAccount": "계정에 저장되었습니다",
+    "nearbyIn": "{{name}}의 주변 장소",
+    "reportPrompt": "이 장소의 어떤 점이 잘못되었나요?",
+    "reportSubmitted": "신고가 접수되었습니다 — 감사합니다",
+    "reportThisPlace": "이 장소 신고하기"
+  },
+  "savedPlaces": {
+    "eyebrow": "내 계정",
+    "title": "저장한 장소",
+    "emptyTitle": "아직 저장한 장소가 없습니다",
+    "emptyDescription": "지도나 디스커버 피드를 둘러보고 가고 싶은 장소를 저장해 보세요."
+  },
+  "categories": {
+    "cafe": "카페",
+    "restaurant": "레스토랑",
+    "bar": "바",
+    "nightlife": "나이트라이프",
+    "shopping": "쇼핑",
+    "culture": "문화",
+    "landmark": "랜드마크",
+    "nature": "자연",
+    "kpop": "K-pop",
+    "art": "예술",
+    "market": "시장",
+    "wellness": "웰니스"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "list": {
+    "eyebrow": "Taste Korea",
+    "title": "Korean food, decoded"
+  },
+  "categories": {
+    "bbq": "BBQ",
+    "street-food": "Street food",
+    "noodles": "Noodles",
+    "soups-stews": "Soups & stews",
+    "desserts": "Desserts",
+    "cafe-drinks": "Cafe drinks",
+    "traditional": "Traditional",
+    "regional": "Regional",
+    "convenience-store": "Convenience store"
+  },
+  "filters": {
+    "all": "All",
+    "spiceAny": "Any spice level",
+    "spiceNone": "No spice",
+    "spiceMild": "Mild (≤2)",
+    "spiceMedium": "Medium (≤4)"
+  },
+  "empty": {
+    "title": "No food items match",
+    "description": "Try a different category or spice filter."
+  },
+  "detail": {
+    "tryItHere": "Try it here",
+    "recommendedPlaces": "Recommended places"
+  },
+  "info": {
+    "origin": "Origin",
+    "region": "Region",
+    "priceRange": "Price range",
+    "spiceLevel": "Spice level",
+    "rating": "Rating"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "cover": {
+    "change": "Muqovani o'zgartirish"
+  },
+  "stats": {
+    "followers": "Obunachilar",
+    "following": "Obunalar",
+    "dayStreak": "{{count}} kunlik seriya"
+  },
+  "tabs": {
+    "posts": "Postlar",
+    "collections": "To'plamlar"
+  },
+  "posts": {
+    "composerPlaceholder": "Yangi kashfiyotingizni ulashing...",
+    "emptyTitle": "Hozircha postlar yo'q"
+  },
+  "collectionsTab": {
+    "itemsCount": "{{count}} ta element",
+    "emptyTitle": "Ommaviy to'plamlar yo'q"
+  },
+  "toasts": {
+    "coverUpdated": "Muqova surati yangilandi",
+    "posted": "Joylandi",
+    "profileUpdated": "Profil yangilandi"
+  },
+  "editModal": {
+    "title": "Profilni tahrirlash",
+    "changePhoto": "Rasmni o'zgartirish",
+    "displayName": "Ko'rsatiladigan ism",
+    "bio": "Bio",
+    "interests": "Qiziqishlar (vergul bilan ajrating)",
+    "interestsPlaceholder": "kafe, kpop, tungi hayot"
+  },
+  "collectionsPage": {
+    "eyebrow": "Sizning hisobingiz",
+    "title": "To'plamlar",
+    "newCollection": "Yangi to'plam",
+    "namePlaceholder": "To'plam nomi",
+    "descriptionPlaceholder": "Tavsif (ixtiyoriy)",
+    "makePublic": "Bu to'plamni ommaviy qilish",
+    "createdToast": "To'plam yaratildi",
+    "noDescription": "Tavsif yo'q",
+    "itemsCount": "{{count}} ta element",
+    "emptyTitle": "Hozircha to'plamlar yo'q",
+    "emptyDescription": "Joylar, taomlar va tadbirlarni tartibga solish uchun birinchi to'plamingizni yarating."
+  },
+  "collectionDetail": {
+    "eyebrow": "To'plam · muallif {{name}}",
+    "privateMessage": "Bu to'plam maxfiy.",
+    "emptyTitle": "Bu to'plam bo'sh",
+    "emptyDescription": "Sahifalardagi saqlash tugmasi orqali joylar, taomlar, tadbirlar yoki postlarni qo'shing."
+  },
+  "itemTypes": {
+    "Place": "Joy",
+    "Post": "Post",
+    "Event": "Tadbir",
+    "Food": "Taom"
+  },
+  "addToCollection": {
+    "title": "To'plamga saqlash",
+    "addedToast": "To'plamga qo'shildi",
+    "addErrorToast": "To'plamga qo'shib bo'lmadi",
+    "createErrorToast": "To'plam yaratib bo'lmadi",
+    "createdAndAddedToast": "\"{{name}}\" to'plami yaratildi va element qo'shildi",
+    "namePlaceholder": "Yangi to'plam nomi",
+    "noCollections": "Hozircha to'plamlar yo'q.",
+    "add": "Qo'shish"
+  },
+  "notifications": {
+    "title": "Bildirishnomalar",
+    "markAllRead": "Barchasini o'qilgan deb belgilash",
+    "emptyTitle": "Hozircha bildirishnomalar yo'q",
+    "emptyDescription": "Layklar, izohlar, obunalar va yutuqlar shu yerda ko'rinadi.",
+    "ariaLabel": "Bildirishnomalar",
+    "allCaughtUp": "Barcha bildirishnomalarni ko'rib chiqdingiz.",
+    "viewAll": "Barchasini ko'rish",
+    "panelTitle": "Bildirishnomalar"
+  }
+}

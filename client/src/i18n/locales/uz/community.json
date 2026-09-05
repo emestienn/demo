@@ -1,0 +1,15 @@
+{
+  "eyebrow": "Jamiyat",
+  "heading": "Hamma nimani topmoqda",
+  "composePlaceholder": "Kashfiyotingiz bilan bo'lishing...",
+  "postedToast": "Jamiyatga joylandi",
+  "tabs": {
+    "all": "Barchasi",
+    "following": "Kuzatilganlar"
+  },
+  "empty": {
+    "title": "Hozircha postlar yo'q",
+    "description": "Kashfiyot bilan birinchi bo'lib bo'lishing."
+  },
+  "commentPlaceholder": "Izoh yozish..."
+}

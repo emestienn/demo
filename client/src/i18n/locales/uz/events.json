@@ -1,0 +1,28 @@
+{
+  "eyebrow": "Nima bo'lyapti",
+  "title": "Koreya bo'ylab tadbirlar",
+  "filters": {
+    "allTypes": "Barcha turlar",
+    "allCities": "Barcha shaharlar"
+  },
+  "types": {
+    "concert": "Konsert",
+    "festival": "Festival",
+    "exhibition": "Ko'rgazma",
+    "popUp": "Pop-ap",
+    "market": "Bozor",
+    "performance": "Tomosha",
+    "cultural": "Madaniy tadbir"
+  },
+  "empty": {
+    "title": "Hozircha kutilayotgan tadbirlar yo'q",
+    "description": "Tez orada qayta tekshiring yoki madaniyat sahifalaridagi o'tgan tadbirlarni ko'ring."
+  },
+  "detail": {
+    "saveEvent": "Bu tadbirni saqlash"
+  },
+  "toast": {
+    "saved": "Tadbir saqlandi",
+    "removed": "Saqlanganlardan olib tashlandi"
+  }
+}

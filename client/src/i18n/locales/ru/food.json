@@ -1,0 +1,39 @@
+{
+  "list": {
+    "eyebrow": "Вкус Кореи",
+    "title": "Корейская еда, раскрытая"
+  },
+  "categories": {
+    "bbq": "Барбекю",
+    "street-food": "Уличная еда",
+    "noodles": "Лапша",
+    "soups-stews": "Супы и рагу",
+    "desserts": "Десерты",
+    "cafe-drinks": "Напитки из кафе",
+    "traditional": "Традиционная",
+    "regional": "Региональная",
+    "convenience-store": "Магазин у дома"
+  },
+  "filters": {
+    "all": "Все",
+    "spiceAny": "Любая острота",
+    "spiceNone": "Без остроты",
+    "spiceMild": "Слабая (≤2)",
+    "spiceMedium": "Средняя (≤4)"
+  },
+  "empty": {
+    "title": "Нет подходящих блюд",
+    "description": "Попробуйте другую категорию или уровень остроты."
+  },
+  "detail": {
+    "tryItHere": "Попробуйте здесь",
+    "recommendedPlaces": "Рекомендуемые места"
+  },
+  "info": {
+    "origin": "Происхождение",
+    "region": "Регион",
+    "priceRange": "Ценовой диапазон",
+    "spiceLevel": "Острота",
+    "rating": "Рейтинг"
+  }
+}

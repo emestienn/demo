@@ -1,0 +1,170 @@
+{
+  "layout": {
+    "backToDongne": "DONGNE'ga qaytish",
+    "adminConsole": "Admin konsoli",
+    "nav": {
+      "overview": "Umumiy ko'rinish",
+      "users": "Foydalanuvchilar",
+      "places": "Joylar",
+      "cities": "Shaharlar va mahallalar",
+      "food": "Taomlar",
+      "culture": "Madaniyat",
+      "events": "Tadbirlar",
+      "reports": "Shikoyatlar"
+    }
+  },
+  "overview": {
+    "title": "Platforma umumiy ko'rinishi",
+    "stats": {
+      "users": "Foydalanuvchilar",
+      "usersSub": "So'nggi 30 kunda +{{count}}",
+      "places": "Joylar",
+      "posts": "Postlar",
+      "events": "Tadbirlar",
+      "reviews": "Sharhlar",
+      "openReports": "Ochiq shikoyatlar",
+      "engagement": "Faollik (7 kun)"
+    },
+    "activityChart": "So'nggi 30 kunlik faollik",
+    "categoryChart": "Kategoriya bo'yicha joylar",
+    "mostViewedPlaces": "Eng ko'p ko'rilgan joylar",
+    "viewsCount": "{{count}} marta ko'rilgan",
+    "usersByRole": "Rol bo'yicha foydalanuvchilar"
+  },
+  "users": {
+    "title": "Foydalanuvchilar",
+    "searchPlaceholder": "Foydalanuvchi nomi yoki email bo'yicha qidirish",
+    "columns": {
+      "user": "Foydalanuvchi",
+      "email": "Email",
+      "role": "Rol",
+      "status": "Holat"
+    },
+    "roles": {
+      "user": "Foydalanuvchi",
+      "moderator": "Moderator",
+      "admin": "Administrator"
+    },
+    "status": {
+      "active": "Faol",
+      "suspended": "Bloklangan"
+    },
+    "suspend": "Bloklash",
+    "reinstate": "Tiklash",
+    "toast": {
+      "roleUpdated": "Rol yangilandi",
+      "userSuspended": "Foydalanuvchi bloklandi",
+      "userReinstated": "Foydalanuvchi tiklandi"
+    }
+  },
+  "reports": {
+    "title": "Shikoyatlar",
+    "reportedBy": "{{reporter}} tomonidan shikoyat qilingan {{targetType}}",
+    "status": {
+      "open": "Ochiq",
+      "reviewing": "Ko'rib chiqilmoqda",
+      "resolved": "Hal qilindi",
+      "dismissed": "Rad etildi"
+    },
+    "empty": {
+      "title": "Shikoyatlar yo'q",
+      "description": "Moderatsiya uchun shikoyat qilingan kontent shu yerda ko'rinadi."
+    }
+  },
+  "resources": {
+    "places": { "title": "Joylar", "singular": "joy" },
+    "food": { "title": "Taomlar", "singular": "taom" },
+    "culture": { "title": "Madaniyat", "singular": "madaniyat yozuvi" },
+    "events": { "title": "Tadbirlar", "singular": "tadbir" },
+    "cities": { "title": "Shaharlar", "singular": "shahar" },
+    "neighborhoods": { "title": "Mahallalar", "singular": "mahalla" }
+  },
+  "fields": {
+    "places": {
+      "name": "Nomi",
+      "category": "Kategoriya",
+      "neighborhood": "Mahalla",
+      "rating": "Reyting",
+      "description": "Tavsif",
+      "address": "Manzil",
+      "priceLevel": "Narx darajasi (1-4)",
+      "tags": "Teglar (vergul bilan)",
+      "lat": "Kenglik",
+      "lng": "Uzunlik",
+      "image": "Rasm URL"
+    },
+    "food": {
+      "name": "Nomi",
+      "category": "Kategoriya",
+      "spice": "O'tkirlik",
+      "rating": "Reyting",
+      "nameEnglish": "Inglizcha nomi",
+      "nameKorean": "Koreyscha nomi",
+      "description": "Tavsif",
+      "origin": "Kelib chiqishi",
+      "region": "Hudud",
+      "priceRange": "Narx oralig'i",
+      "spiceLevel": "O'tkirlik darajasi (0-5)",
+      "image": "Rasm URL"
+    },
+    "culture": {
+      "title": "Sarlavha",
+      "type": "Turi",
+      "popularity": "Ommabopligi",
+      "summary": "Qisqacha mazmuni",
+      "body": "Matn",
+      "tags": "Teglar (vergul bilan)",
+      "image": "Rasm URL",
+      "featured": "Tavsiya etilgan"
+    },
+    "events": {
+      "title": "Sarlavha",
+      "type": "Turi",
+      "date": "Sana",
+      "city": "Shahar",
+      "venue": "Manzil",
+      "description": "Tavsif",
+      "startDate": "Boshlanish sanasi",
+      "priceRange": "Narx oralig'i",
+      "image": "Rasm URL"
+    },
+    "cities": {
+      "name": "Nomi",
+      "region": "Hudud",
+      "placeCount": "Joylar",
+      "tagline": "Shior",
+      "description": "Tavsif",
+      "bestSeason": "Eng qulay fasl",
+      "lat": "Markaz kengligi",
+      "lng": "Markaz uzunligi"
+    },
+    "neighborhoods": {
+      "name": "Nomi",
+      "city": "Shahar",
+      "rating": "Reyting",
+      "tagline": "Shior",
+      "description": "Tavsif",
+      "atmosphere": "Muhit",
+      "vibeTags": "Muhit teglari (vergul bilan)",
+      "lat": "Markaz kengligi",
+      "lng": "Markaz uzunligi"
+    }
+  },
+  "resourceManager": {
+    "new": "Qo'shish: {{resource}}",
+    "edit": "Tahrirlash: {{resource}}",
+    "selectOption": "Tanlang...",
+    "empty": "«{{resource}}» ro'yxati hozircha bo'sh.",
+    "deleteConfirm": "«{{resource}}» o'chirilsinmi? Bu amalni bekor qilib bo'lmaydi.",
+    "updated": "«{{resource}}» yangilandi",
+    "created": "«{{resource}}» yaratildi",
+    "deleted": "«{{resource}}» o'chirildi",
+    "saveError": "«{{resource}}»ni saqlab bo'lmadi"
+  },
+  "cities": {
+    "tabs": {
+      "cities": "Shaharlar",
+      "neighborhoods": "Mahallalar"
+    }
+  }
+}

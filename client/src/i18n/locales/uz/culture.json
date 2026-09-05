@@ -1,0 +1,22 @@
+{
+  "eyebrow": "K-madaniyat",
+  "title": "Sahna ortidagi hikoyalar",
+  "filters": {
+    "all": "Barchasi"
+  },
+  "categories": {
+    "kpop": "K-pop",
+    "kdrama": "K-drama",
+    "cinema": "Kino",
+    "fashion": "Moda",
+    "beauty": "Go'zallik",
+    "street-culture": "Ko'cha madaniyati",
+    "traditional": "An'anaviy",
+    "festival": "Festival",
+    "trend": "Trend"
+  },
+  "detail": {
+    "relatedPlacesEyebrow": "O'zingiz ko'ring",
+    "relatedPlacesTitle": "Tegishli joylar"
+  }
+}

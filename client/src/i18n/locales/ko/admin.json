@@ -1,0 +1,170 @@
+{
+  "layout": {
+    "backToDongne": "DONGNE로 돌아가기",
+    "adminConsole": "관리자 콘솔",
+    "nav": {
+      "overview": "개요",
+      "users": "사용자",
+      "places": "장소",
+      "cities": "도시 및 동네",
+      "food": "음식",
+      "culture": "문화",
+      "events": "이벤트",
+      "reports": "신고"
+    }
+  },
+  "overview": {
+    "title": "플랫폼 개요",
+    "stats": {
+      "users": "사용자",
+      "usersSub": "최근 30일 +{{count}}명",
+      "places": "장소",
+      "posts": "게시물",
+      "events": "이벤트",
+      "reviews": "리뷰",
+      "openReports": "처리 대기 신고",
+      "engagement": "참여도 (7일)"
+    },
+    "activityChart": "최근 30일 활동",
+    "categoryChart": "카테고리별 장소",
+    "mostViewedPlaces": "조회수 상위 장소",
+    "viewsCount": "조회수 {{count}}회",
+    "usersByRole": "역할별 사용자"
+  },
+  "users": {
+    "title": "사용자",
+    "searchPlaceholder": "사용자 이름 또는 이메일 검색",
+    "columns": {
+      "user": "사용자",
+      "email": "이메일",
+      "role": "역할",
+      "status": "상태"
+    },
+    "roles": {
+      "user": "일반 사용자",
+      "moderator": "모더레이터",
+      "admin": "관리자"
+    },
+    "status": {
+      "active": "활성",
+      "suspended": "정지됨"
+    },
+    "suspend": "정지",
+    "reinstate": "복구",
+    "toast": {
+      "roleUpdated": "역할이 변경되었습니다",
+      "userSuspended": "사용자가 정지되었습니다",
+      "userReinstated": "사용자가 복구되었습니다"
+    }
+  },
+  "reports": {
+    "title": "신고",
+    "reportedBy": "{{reporter}}님이 신고한 {{targetType}}",
+    "status": {
+      "open": "접수됨",
+      "reviewing": "검토 중",
+      "resolved": "해결됨",
+      "dismissed": "반려됨"
+    },
+    "empty": {
+      "title": "신고 내역 없음",
+      "description": "모더레이션이 필요한 신고된 콘텐츠가 여기에 표시됩니다."
+    }
+  },
+  "resources": {
+    "places": { "title": "장소", "singular": "장소" },
+    "food": { "title": "음식", "singular": "음식" },
+    "culture": { "title": "문화", "singular": "문화 콘텐츠" },
+    "events": { "title": "이벤트", "singular": "이벤트" },
+    "cities": { "title": "도시", "singular": "도시" },
+    "neighborhoods": { "title": "동네", "singular": "동네" }
+  },
+  "fields": {
+    "places": {
+      "name": "이름",
+      "category": "카테고리",
+      "neighborhood": "동네",
+      "rating": "평점",
+      "description": "설명",
+      "address": "주소",
+      "priceLevel": "가격대 (1-4)",
+      "tags": "태그 (쉼표로 구분)",
+      "lat": "위도",
+      "lng": "경도",
+      "image": "이미지 URL"
+    },
+    "food": {
+      "name": "이름",
+      "category": "카테고리",
+      "spice": "매운맛",
+      "rating": "평점",
+      "nameEnglish": "영문 이름",
+      "nameKorean": "한글 이름",
+      "description": "설명",
+      "origin": "원산지",
+      "region": "지역",
+      "priceRange": "가격대",
+      "spiceLevel": "매운맛 단계 (0-5)",
+      "image": "이미지 URL"
+    },
+    "culture": {
+      "title": "제목",
+      "type": "유형",
+      "popularity": "인기도",
+      "summary": "요약",
+      "body": "본문",
+      "tags": "태그 (쉼표로 구분)",
+      "image": "이미지 URL",
+      "featured": "추천 콘텐츠"
+    },
+    "events": {
+      "title": "제목",
+      "type": "유형",
+      "date": "날짜",
+      "city": "도시",
+      "venue": "장소",
+      "description": "설명",
+      "startDate": "시작일",
+      "priceRange": "가격대",
+      "image": "이미지 URL"
+    },
+    "cities": {
+      "name": "이름",
+      "region": "지역",
+      "placeCount": "장소 수",
+      "tagline": "태그라인",
+      "description": "설명",
+      "bestSeason": "추천 계절",
+      "lat": "중심 위도",
+      "lng": "중심 경도"
+    },
+    "neighborhoods": {
+      "name": "이름",
+      "city": "도시",
+      "rating": "평점",
+      "tagline": "태그라인",
+      "description": "설명",
+      "atmosphere": "분위기",
+      "vibeTags": "분위기 태그 (쉼표로 구분)",
+      "lat": "중심 위도",
+      "lng": "중심 경도"
+    }
+  },
+  "resourceManager": {
+    "new": "{{resource}} 추가",
+    "edit": "{{resource}} 수정",
+    "selectOption": "선택...",
+    "empty": "등록된 {{resource}}이(가) 없습니다.",
+    "deleteConfirm": "이 {{resource}}을(를) 삭제하시겠습니까? 되돌릴 수 없습니다.",
+    "updated": "{{resource}} 정보가 업데이트되었습니다",
+    "created": "{{resource}}이(가) 생성되었습니다",
+    "deleted": "{{resource}}이(가) 삭제되었습니다",
+    "saveError": "{{resource}} 저장에 실패했습니다"
+  },
+  "cities": {
+    "tabs": {
+      "cities": "도시",
+      "neighborhoods": "동네"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "eyebrow": "K-컬처",
+  "title": "무대 뒤 이야기",
+  "filters": {
+    "all": "전체"
+  },
+  "categories": {
+    "kpop": "K-팝",
+    "kdrama": "K-드라마",
+    "cinema": "영화",
+    "fashion": "패션",
+    "beauty": "뷰티",
+    "street-culture": "스트리트 문화",
+    "traditional": "전통",
+    "festival": "축제",
+    "trend": "트렌드"
+  },
+  "detail": {
+    "relatedPlacesEyebrow": "직접 확인해보세요",
+    "relatedPlacesTitle": "관련 장소"
+  }
+}
