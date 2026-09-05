@@ -12,7 +12,12 @@ async function main() {
   const server = http.createServer(app);
 
   const io = new Server(server, {
-    cors: { origin: env.CLIENT_ORIGINS, credentials: true },
+    cors: {
+      origin(origin, callback) {
+        callback(null, env.isAllowedOrigin(origin));
+      },
+      credentials: true,
+    },
   });
   initSockets(io);
 
